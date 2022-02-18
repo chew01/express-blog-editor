@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import React from 'react';
 import Login from '../views/Login';
+import { authCheck } from '../api';
 
 function Router() {
   return (
